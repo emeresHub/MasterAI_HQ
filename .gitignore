@@ -1,0 +1,36 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+venv/
+env/
+.env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data files (processed)
+data/processed/
+data/*.h5
+data/*.db
+
+# Model checkpoints & adapters
+adapters/
+models/
+*.pt
+*.ckpt
+
+# Logs and caches
+logs/
+*.log
+.cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
